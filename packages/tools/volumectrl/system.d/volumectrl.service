@@ -1,0 +1,9 @@
+[Unit]
+Description=Volume control service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/volumectrl
+
+[Install]
+WantedBy=multi-user.target

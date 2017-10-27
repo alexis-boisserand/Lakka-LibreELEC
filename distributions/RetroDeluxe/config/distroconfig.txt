@@ -1,6 +1,9 @@
 # Disable spi and i2c, we need these pins.
 dtparam=spi=off
 dtparam=i2c_arm=off
+
+# Enable audio
+dtparam=audio=on
  
 # Set screen size and any overscan required
 overscan_left=0
