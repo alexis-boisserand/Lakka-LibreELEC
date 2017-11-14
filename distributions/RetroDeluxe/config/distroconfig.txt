@@ -29,3 +29,6 @@ hdmi_timings=800 0 40 48 88 480 0 13 3 32 0 0 0 60 0 32000000 6
 
 # 180 degrees screen rotation
 display_rotate=2
+
+# remove rainbow colored splash screen                                                                              
+disable_splash=1     
